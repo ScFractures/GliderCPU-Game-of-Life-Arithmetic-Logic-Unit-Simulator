@@ -53,3 +53,9 @@ This is not a simulation of a calculator — it is a calculator physically embed
 
 📌 Status
 Experimental but functional 4-bit ALU system with working arithmetic pipeline.
+
+🔗 References
+Golly — Conway’s Game of Life Simulator
+http://golly.sourceforge.net/
+Official website for Golly, the cellular automaton simulator used to run and visualize all glider-based logic gates and the 4-bit ALU.
+Provides scripting API, pattern loading (RLE), and real-time evolution of Conway’s Game of Life grids.
