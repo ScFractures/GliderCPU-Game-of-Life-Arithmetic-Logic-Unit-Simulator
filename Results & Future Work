@@ -1,0 +1,23 @@
+📊 Current Results
+Successfully implemented 4-bit arithmetic operations using glider-based logic gates (AND, XOR, NOT, OR) in Conway’s Game of Life.
+Built a full-adder pipeline, allowing multi-bit addition and subtraction purely with glider collisions.
+Implemented 4-bit multiplication through partial product accumulation using repeated ripple-carry adders.
+Implemented integer division via repeated subtraction and carry/borrow detection.
+Input control achieved with eater/block structures, allowing selection between 0 and 1 for each bit.
+Output detection implemented through fixed coordinate probes, providing correct SUM, CARRY, QUOTIENT, and REMAINDER for test cases.
+Entire arithmetic pipeline runs automatically in Golly via Python controller scripts, simulating a hardware-like computation in a cellular automaton.
+🚀 Future Work
+Visual Output Display
+Implement on-grid Game of Life patterns to visually represent decimal or binary results (e.g., blocks/glider clusters forming digits).
+Replace coordinate probes with a fully visual output, making the ALU self-contained and observable in the Life grid.
+Gate Integration
+Merge separate gate RLE files into a single integrated ALU layout, reducing setup overhead and enabling continuous signal propagation.
+Input Interface
+Develop a dynamic glider-based input system, potentially using glider streams or switchable eater patterns to simulate real-time inputs.
+Expand Bit Width
+Extend from 4-bit to 8-bit arithmetic, allowing larger numbers and more complex calculations.
+Optimization
+Refine glider timing, spacing, and eater/block placement to minimize errors and collisions.
+Explore modular designs for reusability of subcircuits (full adders, multipliers, dividers).
+Interactive Calculator Demo
+Provide a fully interactive demo where users can enter numbers and operations and watch the Game of Life compute and display the result in real time.
