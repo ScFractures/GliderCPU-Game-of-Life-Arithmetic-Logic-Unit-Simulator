@@ -1,6 +1,5 @@
 # GliderCPU-Game-of-Life-Arithmetic-Logic-Unit-Simulator
 🧠 GliderCPU — Game of Life 4-bit Arithmetic Logic Unit
-
 GliderCPU is a full arithmetic computing system built entirely inside Conway’s Game of Life using glider-based logic gates. It implements a complete 4-bit ALU capable of performing addition, subtraction, multiplication, and division through physically simulated logic circuits rather than software arithmetic.
 
 All computation is performed using glider streams, eater-based input control, and collision-driven logic gates exported as RLE patterns and orchestrated via a Python controller in Golly.
@@ -15,8 +14,8 @@ Repeated subtraction division (integer quotient + remainder)
 Glider-based multiplication using partial product accumulation
 Input encoding via eater/block control structures
 Output detection via fixed coordinate probes
-🧩 Architecture
 
+🧩 Architecture
 The system is composed of:
 
 RLE-based logic gates (AND / XOR / NOT / OR)
@@ -36,7 +35,6 @@ Division: A ÷ B → quotient + remainder
 All inputs are 0–15 (4-bit unsigned integers).
 
 🧠 Key Idea
-
 Instead of simulating arithmetic, this project constructs a physically realizable computation model where:
 
 logic = glider interaction
@@ -49,10 +47,9 @@ Python (Golly scripting API)
 Conway’s Game of Life (B3/S23 rule)
 RLE gate modules
 Glider-based signal propagation
-🚀 Why this project is special
 
+🚀 Why this project is special
 This is not a simulation of a calculator — it is a calculator physically embedded inside a cellular automaton universe, where every bit of computation emerges from particle-like interactions of gliders.
 
 📌 Status
-
 Experimental but functional 4-bit ALU system with working arithmetic pipeline.
